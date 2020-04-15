@@ -157,6 +157,8 @@ f = function(x) {
   x^3 - (3^x) * sin(x)
 }
 
+f <-function(x) {x^3 - (3^x) * sin(x)} #también podría hacerlo así. 
+
 f(4) # 4^3 - 3^4 * sin(4)
 f(5)
 f(pi/2)
