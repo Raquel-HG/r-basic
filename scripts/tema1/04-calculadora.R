@@ -103,7 +103,7 @@ floor(sqrt(2))
 ceiling(sqrt(2))
 trunc(sqrt(2))
 
-sqrt(2)^2-2
+sqrt(2)^2-2 #no da cero y esto es debido a la coma flotante, solo almacena 16 dígitos.
 
 round(sqrt(2), 4)^2
 
